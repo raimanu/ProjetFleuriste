@@ -33,7 +33,7 @@ public class PrincipalView extends JFrame {
 
         //Ajout de l'onglet Acceuil
         ongletAccueil = new AccueilView();
-        voletOnglet.addTab("Accueil",new ImageIcon("images"+File.separator+"commande.png"), ongletCommande, null);
+        voletOnglet.addTab("Accueil",new ImageIcon("images"+File.separator+"commande.png"), ongletAccueil, null);
 
         //Ajout de l'onglet classJava.Fleur, permettant de gérer les fleurs disponible
         ongletFleur = new FleurView();

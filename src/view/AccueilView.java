@@ -31,5 +31,7 @@ public class AccueilView extends JPanel{
         //Création boite verticale pour inserer les composants du panel de gauche
         Box verticalBox = Box.createVerticalBox();
         panel.add(verticalBox);
+
+
     }
 }

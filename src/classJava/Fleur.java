@@ -46,6 +46,14 @@ public class Fleur {
         this.dureeVie = dureeVie;
     }
 
+    public String getNom() {
+        return nom;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
     /**
      * Permet de changer le prix de la classJava.Fleur
      *
@@ -164,6 +172,6 @@ public class Fleur {
      *Permet d'afficher les caractéristiques de la classJava.Fleur
      */
     public void showProduct() {
-        System.out.println(nom+" : coûte "+prix+" euro\n"+"Elle est de couleur "+couleur+", elle a " + age + " mois, mesure "+ taille + " cm et dure "+dureeVie+" en bouquet.\n");
+        System.out.println(nom+" : coûte "+prix+" euro\n"+"Elle est de couleur "+couleur+", elle a " + age + " jour, mesure "+ taille + " cm et dure "+dureeVie+" en bouquet.\n");
     }
 }
